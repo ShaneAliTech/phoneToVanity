@@ -1,0 +1,22 @@
+{
+  "name": "phone-to-vanity",
+  "version": "1.0.0",
+  "description": "lambda function convert phone to vanity numbers",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0",
+    "aws-sdk": "^2.1581.0",
+    "axios": ">=1.6.0",
+    "sinon": "^17.0.1"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  }
+}
